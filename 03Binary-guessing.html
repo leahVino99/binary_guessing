@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>03Binary-guessing</title>
+    <link rel="stylesheet" href="./03Binary-guessing.css">
+</head>
+<body>
+    <h1>Guess a number from 1 to 100:</h1>
+    <br>
+    <h3>You have two options. If you want to guess a number
+         that the computer chose, <br>
+         press 'I guess'. If you want the computer to guess a number,<br>
+          press 'The computer guesses'. If you want to play two players without the computer-play mode 3.</h3><br>
+
+    
+    <div class="Game1 mode "><div class="error"></div></p>
+    
+         <button id="Iguess">I guess and the computer chooses</button>
+
+         <h2><div class="out" id="answer"></div></h2> 
+
+        <input type="number" name="from1-to-100" id="from1-to-100" placeholder="From 1-to-100">
+    </div>
+
+    <div class="Game2 mode "><button id="compGuesses">The computer guesses</button>
+        <br>
+        <h2><div class="out1"></div></h2>
+        <br>
+        <p><button class="numGreater">My num is greater</button>
+        <button class="numSmaller">My num is smaller</button>
+        <p><button class="numIsEven">This is my num! You won</button></p>
+    </div>
+
+    <div class='Game3 mode '>
+        <h3>A game with 2 players - Guess a number from 1 to 100</h3>
+        <p>One player has to think of a number and the other player has to guess</p>
+ 
+            <div><h2 class="out2"></h2></div> <br>
+            
+            <label for="numPlayerA">A number that player A is thinking about</label>
+            <input type="number" id="numPlayerA" placeholder="Your number">
+            <br>
+            <label for="guessPlayer">A number that player B guesses</label>
+            <input type="number" id="guessPlayer" placeholder="Your guess">
+
+            <p><button class="numGreater1">My num is greater</button>
+            <button class="numSmaller1">My num is smaller</button>
+            <p><button class="numIsEven1">This is my num! You won</button></p>  
+    </div>
+
+
+<script src="./03Binary-guessing.js"></script>
+</body>
+</html>

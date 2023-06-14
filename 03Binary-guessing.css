@@ -1,0 +1,98 @@
+body, html{
+    height: 100%;
+}
+
+
+
+body{
+    margin-left: 400px;
+    background-color: rgb(178, 215, 236);
+    height: 300px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-image: url(background_numbers_1.jpg);
+
+
+}
+
+h1{
+    color:rgb(28, 158, 28);
+    font-family:'Lucida Sans', 'Lucida Sans Regular',
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, 
+    sans-serif;
+}
+
+h3{
+    font-style: italic;
+}
+
+.Game1, .Game2, .Game3 {
+    margin-left: 120px;
+    width: 10cm;
+    height: 5cm;
+}
+
+
+.Game1{
+    margin-bottom: 70px;
+    border-style:dotted;
+    border-color: beige;
+}
+
+.Game2{
+    margin-bottom: 30px;
+    border-style: dotted;
+    border-color: rgb(34, 34, 25);
+
+}
+
+.Game3{
+    margin-top: 70px;
+    /* margin-bottom: 1px; */
+    border-style: dotted;
+    border-color: rgb(226, 226, 30);
+    height: 600px
+    
+}
+
+#Iguess, #compGuesses, .numGreater , .numSmaller, .numIsEven,
+#gameOfTwo, #Iguess1, #adversaryGuesses, .numGreater1 ,
+.numSmaller1, .numIsEven1 {
+    font-size: 1.3rem;
+}
+
+#Iguess, #compGuesses, #gameOfTwo, #Iguess1, #adversaryGuesses {
+    box-shadow: 3px 3px 5px 5px  blue;
+    margin-left: 20px;
+
+}
+
+.numGreater , .numSmaller, .numIsEven, .numGreater1 , .numSmaller1,
+.numIsEven1 {
+    border-radius: 10px;
+    box-shadow: 3px 5px purple;
+}
+
+.numSmaller {
+    margin-left: 5px;
+}
+
+
+
+.error{
+    color: red;
+    font-style: italic;
+}
+
+.out, .out1{
+    color: navy;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    /* width: 50px;
+    height: 50px;
+    min-height: 4rem;
+    margin-bottom: 2rem;
+    box-shadow: 2px 2px 3px 3px rgb(0, 110, 255) */
+}
+
+
